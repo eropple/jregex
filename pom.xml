@@ -1,6 +1,6 @@
 <project>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.github.eropple.jregex</groupId>
+    <groupId>com.edropple.jregex</groupId>
     <artifactId>jregex</artifactId>
     <version>1.2_01</version>
     <packaging>jar</packaging>
