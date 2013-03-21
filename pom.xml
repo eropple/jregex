@@ -1,7 +1,61 @@
-<project>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+          http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.edropple.jregex</groupId>
     <artifactId>jregex</artifactId>
     <version>1.2_01</version>
     <packaging>jar</packaging>
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
+    </parent>
+
+    <name>jregex</name>
+    <description>
+        A Mavenized version of jregex built with a modern, no-warning compiler.
+
+        I do not support jregex's codebase; this is a package for my
+        convenience and for the convenience of others to remove some warnings
+        that arise when using the current version of jregex available on Maven
+        Central in an Android project.
+    </description>
+    <url>http://github.com/eropple/jregex</url>
+
+    <licenses>
+        <license>
+            <name>BSD License</name>
+            <url>https://raw.github.com/eropple/jregex/master/LICENSE</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>eropple</id>
+            <name>Ed Ropple</name>
+            <email>ed+jregex@edropple.com</email>
+            <url>http://edcanhack.com</url>
+            <roles>
+                <role>maintainer</role>
+            </roles>
+            <properties>
+                <PLEASE_NOTE>
+                    I did not write jregex. I do not support it. If there is a
+                    problem with my packaging of it in this jar, please let me
+                    know; otherwise, I cannot help you.
+                </PLEASE_NOTE>
+            </properties>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git@github.com:eropple/jregex.git</connection>
+        <developerConnection>scm:git:git@github.com:eropple/jregex.git</developerConnection>
+        <url>git@github.com:eropple/jregex.git</url>
+    </scm>
 </project>
