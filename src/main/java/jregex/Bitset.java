@@ -309,13 +309,13 @@ class Bitset implements UnicodeConstants{
       //b1.setCategory(Lu);
       //b1.enableLargeMode();
       b1.setRange('a','z');
-      b1.setRange('à','ÿ');
+      b1.setRange('\u00E0','\u00FF');
       
       Bitset b2=new Bitset();
       //b2.setCategory(Ll);
       //b2.enableLargeMode();
       b2.setRange('A','Z');
-      b2.setRange('À','ß');
+      b2.setRange('\u00C0','\u00DF');
       
       Bitset b=new Bitset();
       //bs.setRange('a','z');
